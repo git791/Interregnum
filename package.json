@@ -1,0 +1,11 @@
+{
+  "name": "interregnum-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "packageManager": "pnpm@11.22.0",
+  "scripts": {
+    "build": "pnpm --filter @interregnum/core run build",
+    "test": "pnpm --filter @interregnum/core run test"
+  }
+}
